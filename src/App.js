@@ -1,6 +1,7 @@
 import './App.css';
 import yo from './img/imim.png'
 import yo2 from './img/yo.jpeg'
+import documentcv from './documents/document.pdf'
 
 function App() {
   return (
@@ -25,18 +26,18 @@ function App() {
           <div className="info-content">
             <h1>Soy <span>José</span> Tejero</h1>
             <p>Estoy en la etapa del desarrollo personal, buscando la manera de ser un humano que aporte al bienestar mundial. Me gusta enseñar y aprender.</p>
-            <a download href="#">
+            <a download href={documentcv}>
               <button className='download-cv'>
                 Descargar CV
               </button>
             </a>
           </div>
-          <img src={yo} alt="José Tejero picture" />
+          <img src={yo} alt="José Tejero" />
         </main>
       </div>
 
       <div className="about" id='about' >
-        <img src={yo2} alt="José Tejero image" />
+        <img src={yo2} alt="José Tejero" />
         <div className="about-info">
           <h2>Sobre mí</h2>
           <div className="divider"></div>
@@ -60,21 +61,18 @@ function App() {
               <h2>Descripción del proyecto</h2>
             </div>
             <div className="card-projects-links">
-              <a href="https://github.com/Jose-Tejero/pokeapi" target="_blank">
+              <a href="https://github.com/Jose-Tejero/pokeapi" target="_blank" rel='noreferrer'>
                 <i class="fab fa-github"></i>
               </a>
-              <a href="https://pokeapi-tejero.netlify.app" target="_blank">
+              <a href="https://pokeapi-tejero.netlify.app" target="_blank" rel='noreferrer'>
                 <i class="fas fa-globe-americas"></i>
               </a>
-              <a href="">
-                <i class="fas fa-code"></i>
-              </a>
             </div>
-            <div className="project-details-content">
+            {/* <div className="project-details-content">
               <button className='project-details download-cv' >
                 <a href="">Detalles</a>
               </button>
-            </div>
+            </div> */}
           </div>
 
           <div className="card">
@@ -83,21 +81,18 @@ function App() {
               <h2>Descripción del proyecto</h2>
             </div>
             <div className="card-projects-links">
-              <a href="https://github.com/Jose-Tejero/rickymortyapi" target="_blank">
+              <a href="https://github.com/Jose-Tejero/rickymortyapi" target="_blank" rel='noreferrer'>
                 <i class="fab fa-github"></i>
               </a>
-              <a href="https://rickandmorty-tejero.netlify.app" target="_blank">
+              <a href="https://rickandmorty-tejero.netlify.app" target="_blank" rel='noreferrer'>
                 <i class="fas fa-globe-americas"></i>
               </a>
-              <a href="">
-                <i class="fas fa-code"></i>
-              </a>
             </div>
-            <div className="project-details-content">
+            {/* <div className="project-details-content">
               <button className='project-details download-cv' >
                 <a href="">Detalles</a>
               </button>
-            </div>
+            </div> */}
           </div>
           
           <div className="card">
@@ -106,21 +101,18 @@ function App() {
               <h2>Descripción del proyecto</h2>
             </div>
             <div className="card-projects-links">
-              <a href="https://github.com/Jose-Tejero/theWeatherApp" target="_blank">
+              <a href="https://github.com/Jose-Tejero/theWeatherApp" target="_blank" rel='noreferrer'>
                 <i class="fab fa-github"></i>
               </a>
-              <a href="https://forecast-tejero.netlify.app/" target="_blank">
+              <a href="https://forecast-tejero.netlify.app/" target="_blank" rel='noreferrer'>
                 <i class="fas fa-globe-americas"></i>
               </a>
-              <a href="">
-                <i class="fas fa-code"></i>
-              </a>
             </div>
-            <div className="project-details-content">
+            {/* <div className="project-details-content">
               <button className='project-details download-cv' >
                 <a href="">Detalles</a>
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
 
