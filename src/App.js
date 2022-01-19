@@ -13,10 +13,10 @@ function App() {
               <h2>J<span>T</span></h2>
             </div>
             <ul className='menu' >
-              <li><a className='active' href="#">Home</a></li>
-              <li><a href="#">About me</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a className='active' href="#">Inicio</a></li>
+              <li><a href="#">Sobre mí</a></li>
+              <li><a href="#">Portafolio</a></li>
+              <li><a href="#">Contacto</a></li>
             </ul>
           </nav>
         </header>
@@ -24,7 +24,7 @@ function App() {
         <main className='main' >
           <div className="info-content">
             <h1>Soy <span>José</span> Tejero</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error impedit consequuntur qui laboriosam dolorem sapiente, beatae iste, eum labore voluptatem expedita ratione sint. Repellendus cumque iste illo esse, cupiditate ad?</p>
+            <p>Estoy en la etapa del desarrollo personal, buscando la manera de ser un humano que aporte al bienestar mundial. Me gusta enseñar y aprender.</p>
             <a download href="#">
               <button className='download-cv'>
                 Descargar CV
@@ -40,7 +40,9 @@ function App() {
         <div className="about-info">
           <h2>Sobre mí</h2>
           <div className="divider"></div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta illo ab fugiat esse incidunt voluptas nam deserunt neque sint quia distinctio porro provident nemo, corporis beatae. Atque cupiditate distinctio nisi!</p>
+          <p>Soy graduado de la Licenciatura en Igeniería Electrónica, con área terminal en Instrumentación y Control. Posteriormente fui profesor de asignatura en la Universidad Tecnológica de Campeche.</p>
+          <p>Entre la etapa del fin de la universidad y el principio del mundo laboral, estuve trabajando con amigos en programación de prototipos para concursos nacionales en el mundo de la robótica.</p>
+          <p>Estoy a punto de encontrar mi camino.</p>
           <button className='download-cv' >Leer más</button>
         </div>
       </div>
@@ -53,15 +55,15 @@ function App() {
 
         <div className="container">
           <div className="card">
-            <div className="card-img"></div>
+            <div className="card-img-1"></div>
             <div className="card-title">
               <h2>Descripción del proyecto</h2>
             </div>
             <div className="card-projects-links">
-              <a href="https://github.com/Jose-Tejero/pokeapi" target="_blank" >
+              <a href="https://github.com/Jose-Tejero/pokeapi" target="_blank">
                 <i class="fab fa-github"></i>
               </a>
-              <a href="">
+              <a href="https://pokeapi-tejero.netlify.app" target="_blank">
                 <i class="fas fa-globe-americas"></i>
               </a>
               <a href="">
@@ -74,16 +76,17 @@ function App() {
               </button>
             </div>
           </div>
+
           <div className="card">
-            <div className="card-img"></div>
+            <div className="card-img-2"></div>
             <div className="card-title">
               <h2>Descripción del proyecto</h2>
             </div>
             <div className="card-projects-links">
-              <a href="https://github.com/Jose-Tejero/pokeapi" target="_blank" >
+              <a href="https://github.com/Jose-Tejero/rickymortyapi" target="_blank">
                 <i class="fab fa-github"></i>
               </a>
-              <a href="">
+              <a href="https://rickandmorty-tejero.netlify.app" target="_blank">
                 <i class="fas fa-globe-americas"></i>
               </a>
               <a href="">
@@ -96,16 +99,17 @@ function App() {
               </button>
             </div>
           </div>
+          
           <div className="card">
-            <div className="card-img"></div>
+            <div className="card-img-3"></div>
             <div className="card-title">
               <h2>Descripción del proyecto</h2>
             </div>
             <div className="card-projects-links">
-              <a href="https://github.com/Jose-Tejero/pokeapi" target="_blank" >
+              <a href="https://github.com/Jose-Tejero/theWeatherApp" target="_blank">
                 <i class="fab fa-github"></i>
               </a>
-              <a href="">
+              <a href="https://forecast-tejero.netlify.app/" target="_blank">
                 <i class="fas fa-globe-americas"></i>
               </a>
               <a href="">
@@ -119,12 +123,14 @@ function App() {
             </div>
           </div>
         </div>
+
         <div className="contact-section">
           <div className="contact-headings">
-            <h2>Contactos</h2>
+            <h2>Contacto</h2>
             <div className="divider"></div>
           </div>
         </div>
+
       </div>
 
 

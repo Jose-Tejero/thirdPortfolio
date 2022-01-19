@@ -22,6 +22,10 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 2em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #191C32;
 }
 
 .brand {
@@ -161,10 +165,26 @@ span {
   margin: 1em;
 }
 
-.card-img {
+.card-img-1 {
   width: 100%;
   height: 150px;
   background-image: url(../src/img/pokemonapi.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-img-2 {
+  width: 100%;
+  height: 150px;
+  background-image: url(../src/img/rickandmorty.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-img-3 {
+  width: 100%;
+  height: 150px;
+  background-image: url(../src/img/forecast.png);
   background-size: cover;
   background-position: center;
 }
