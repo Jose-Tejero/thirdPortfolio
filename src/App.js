@@ -6,17 +6,17 @@ function App() {
   return (
     <div className="App">
 
-      <div className='wrapper'>
+      <div className='wrapper' id='home' >
         <header>
           <nav className="navbar">
             <div className="brand">
               <h2>J<span>T</span></h2>
             </div>
             <ul className='menu' >
-              <li><a className='active' href="#">Inicio</a></li>
-              <li><a href="#">Sobre mí</a></li>
-              <li><a href="#">Portafolio</a></li>
-              <li><a href="#">Contacto</a></li>
+              <li><a className='active' href="index.html#home">Inicio</a></li>
+              <li><a href="index.html#about">Sobre mí</a></li>
+              <li><a href="index.html#portfolio">Portafolio</a></li>
+              <li><a href="index.html#contact">Contacto</a></li>
             </ul>
           </nav>
         </header>
@@ -35,7 +35,7 @@ function App() {
         </main>
       </div>
 
-      <div className="about">
+      <div className="about" id='about' >
         <img src={yo2} alt="José Tejero image" />
         <div className="about-info">
           <h2>Sobre mí</h2>
@@ -47,7 +47,7 @@ function App() {
         </div>
       </div>
 
-      <div className="portfolio">
+      <div className="portfolio"  id='portfolio'>
         <div className="portfolio-headings">
           <h2>Mi portafolio</h2>
           <div className="divider"></div>
@@ -124,7 +124,7 @@ function App() {
           </div>
         </div>
 
-        <div className="contact-section">
+        <div className="contact-section" id='contact'>
           <div className="contact-headings">
             <h2>Contacto</h2>
             <div className="divider"></div>
