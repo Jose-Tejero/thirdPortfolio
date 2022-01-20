@@ -43,6 +43,7 @@ body {
 
 .menu {
   display: flex;
+  justify-content: space-evenly;
   width: 50%;
 }
 
@@ -100,9 +101,8 @@ span {
 }
 
 .main img {
-  width: 350px;
   border: 7px solid lawngreen;
-  height: 520px;
+  height: 500px;
 }
 
 .about {
@@ -110,10 +110,12 @@ span {
   grid-template-columns: repeat(10, 1fr);
   width: 100vw;
   align-items: center;
+  padding: 40px 0;
 }
 
 .about img {
   width: 100%;
+  border-radius: 50px;
   grid-column: 1 / 5;
 }
 
@@ -148,7 +150,7 @@ span {
 
 .portfolio-headings {
   width: 100vw;
-  padding: 5em;
+  padding-top: 5em;
 }
 
 .portfolio-headings h2 {
@@ -169,6 +171,12 @@ span {
   color: #fff;
   background-color: #22295e;
   margin: 1em;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 20px;
 }
 
 .card-img-1 {
@@ -177,6 +185,8 @@ span {
   background-image: url(../src/img/pokemonapi.png);
   background-size: cover;
   background-position: center;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
 }
 
 .card-img-2 {
@@ -185,6 +195,8 @@ span {
   background-image: url(../src/img/rickandmorty.png);
   background-size: cover;
   background-position: center;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
 }
 
 .card-img-3 {
@@ -193,6 +205,8 @@ span {
   background-image: url(../src/img/forecast.png);
   background-size: cover;
   background-position: center;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
 }
 
 .card-title h2 {
@@ -240,4 +254,20 @@ span {
 .division {
   display: flex;
   justify-content: space-evenly;
+}
+
+i {
+  transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 0.25s;
+}
+
+i:hover {
+  transform: scale(2);
+}
+
+.github-linkedin h3 {
+  margin-bottom: 20px;
+}
+
+.description {
+  margin: 50px 20px 50px 0;
 }

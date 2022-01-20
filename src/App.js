@@ -1,6 +1,6 @@
 import './App.css';
-import yo from './img/imim.png'
-import yo2 from './img/yo.jpeg'
+import yo from './img/yo05.png'
+import yo2 from './img/yo04.jpeg'
 import documentcv from './documents/document.pdf'
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
         <main className='main' >
           <div className="info-content">
             <h1>Soy <span>José</span> Tejero</h1>
-            <p>Estoy en la etapa del desarrollo personal, buscando la manera de ser un humano que aporte al bienestar mundial. Me gusta enseñar y aprender.</p>
+            <p className='description' >Estoy en la etapa del desarrollo personal, buscando la manera de ser un humano que aporte al bienestar mundial. Me gusta enseñar y aprender.</p>
             <a download href={documentcv}>
               <button className='download-cv'>
                 Descargar CV
@@ -122,7 +122,7 @@ function App() {
             <div className="divider"></div>
             <div className="division">
               <div className="number-email">
-                <h3>Llámame desde México:</h3>
+                <h3>Llamada desde México:</h3>
                 <p>93 8195 6195</p>
                 <br />
                 <h3>Desde cualquier parte del mundo:</h3>
