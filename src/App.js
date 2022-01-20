@@ -58,7 +58,7 @@ function App() {
           <div className="card">
             <div className="card-img-1"></div>
             <div className="card-title">
-              <h2>Descripción del proyecto</h2>
+              <h2>API de Pokémon</h2>
             </div>
             <div className="card-projects-links">
               <a href="https://github.com/Jose-Tejero/pokeapi" target="_blank" rel='noreferrer'>
@@ -78,7 +78,7 @@ function App() {
           <div className="card">
             <div className="card-img-2"></div>
             <div className="card-title">
-              <h2>Descripción del proyecto</h2>
+              <h2>API de Rick and Morty</h2>
             </div>
             <div className="card-projects-links">
               <a href="https://github.com/Jose-Tejero/rickymortyapi" target="_blank" rel='noreferrer'>
@@ -98,7 +98,7 @@ function App() {
           <div className="card">
             <div className="card-img-3"></div>
             <div className="card-title">
-              <h2>Descripción del proyecto</h2>
+              <h2>API del estado del clima</h2>
             </div>
             <div className="card-projects-links">
               <a href="https://github.com/Jose-Tejero/theWeatherApp" target="_blank" rel='noreferrer'>
@@ -120,6 +120,26 @@ function App() {
           <div className="contact-headings">
             <h2>Contacto</h2>
             <div className="divider"></div>
+            <div className="division">
+              <div className="number-email">
+                <h3>Llámame desde México:</h3>
+                <p>93 8195 6195</p>
+                <br />
+                <h3>Desde cualquier parte del mundo:</h3>
+                <p>+52 1 93 8195 6195</p>
+              </div>
+              <div className="github-linkedin">
+                <h3>Sígueme en:</h3>
+                <div className="card-projects-links">
+                  <a href="https://github.com/Jose-Tejero/" target="_blank" rel='noreferrer'>
+                    <i class="fab fa-github"></i>
+                  </a>                
+                  <a href="https://www.linkedin.com/in/jose-tejero-93b9ba124/" target="_blank" rel='noreferrer'>
+                    <i class="fab fa-linkedin"></i>
+                  </a>                
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 

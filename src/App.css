@@ -4,10 +4,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Noto Serif', serif;
+}
+
+.App {
   overflow-x: hidden;
 }
 
@@ -40,7 +44,6 @@ body {
 .menu {
   display: flex;
   width: 50%;
-  justify-content: space-around;
 }
 
 .menu li {
@@ -137,6 +140,7 @@ span {
 }
 
 .portfolio {
+  padding-top: 20px;
   width: 100vw;
   background-color: #191C32;
   color: #fff;
@@ -193,6 +197,7 @@ span {
 
 .card-title h2 {
   font-size: 1.3em;
+  text-align: center;
 }
 
 .card-title {
@@ -230,4 +235,9 @@ span {
   width: 100%;
   justify-content: center;
   margin-top: 1em;
+}
+
+.division {
+  display: flex;
+  justify-content: space-evenly;
 }
