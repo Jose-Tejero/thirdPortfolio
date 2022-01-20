@@ -136,8 +136,10 @@ function App() {
                   </a>                
                   <a href="https://www.linkedin.com/in/jose-tejero-93b9ba124/" target="_blank" rel='noreferrer'>
                     <i class="fab fa-linkedin"></i>
-                  </a>                
+                  </a>
                 </div>
+                <h3>Correo electrónico:</h3>
+                <p>j_jtejero@hotmail.com</p>
               </div>
             </div>
           </div>
