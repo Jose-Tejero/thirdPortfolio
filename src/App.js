@@ -25,7 +25,7 @@ function App() {
         <main className='main' >
           <div className="info-content">
             <h1>Soy <span>José</span> Tejero</h1>
-            <p className='description' >Estoy en la etapa del desarrollo personal, buscando la manera de ser un humano que aporte al bienestar mundial. Me gusta enseñar y aprender.</p>
+            <p className='description' >Desarrollador, programador, profesor... ¿Qué más quieres papi? Soy lo que le falta a tu empresa. Anímate Crack. Pucha el botón verde.</p>
             <a download href={documentcv}>
               <button className='download-cv'>
                 Descargar CV
