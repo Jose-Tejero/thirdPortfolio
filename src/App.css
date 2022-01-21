@@ -103,6 +103,8 @@ span {
 .main img {
   border: 7px solid lawngreen;
   height: 500px;
+  background-color: #0f111d;
+  
 }
 
 .about {
@@ -273,4 +275,30 @@ i:hover {
 
 .description {
   margin: 50px 20px 50px 0;
+}
+
+.minibody {
+  height:100%;
+  margin:0;
+  padding:0;
+  background:#E3DFD2
+}
+
+svg {
+  background:url('https://farm9.staticflickr.com/8760/17195790401_ceeeafcddb_o.jpg');
+  background-size:cover;
+  width:40vmin; 
+  height:auto;
+  display:block;
+  margin:30vmin auto;
+}
+text {
+  font-size:10px;
+  transition:font-size .4s ease-out;
+  font-weight:900;
+  font-family:arial;
+}
+svg:hover text {
+  transition:font-size .4s ease-in;
+  font-size: 300px;
 }
