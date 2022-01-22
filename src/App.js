@@ -1,5 +1,5 @@
 import './App.css';
-import yo from './img/yo05.png'
+/* import yo from './img/yo05.png' */
 import yo2 from './img/yo04.jpeg'
 import documentcv from './documents/document.pdf'
 
